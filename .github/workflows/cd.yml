@@ -20,5 +20,6 @@ jobs:
             cd myServer
             git pull origin
             cat index.js
+            mkdir new_Project
             npm install  # Install new dependencies if needed
             pm2 restart all  # Restart the application
