@@ -86,7 +86,7 @@ app.get("/notifications", (req, res) => {
 })
 
 app.get("/", (req, res) => {
-  res.send("Hello There hehhe")
+  res.send("Hello There, Nixk Speaking")
 })
 
 app.listen(8080)
